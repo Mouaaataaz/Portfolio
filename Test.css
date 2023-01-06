@@ -1,0 +1,82 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+body{
+  width: 100%;
+}
+.container {
+  width: 90%;
+  margin:0 auto;
+  font-family: "Rubik";
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px 0;
+}
+.logo{
+  width: 200px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+.navbar ul li a{
+  float: right;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar ul li a:hover{
+  color: #b24f32;
+  font-weight: bold;
+}
+.content{
+  margin: 200px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.content h1{
+  color: black;
+  font-size: 90px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.content p{
+  color: #b24f32;
+  font-size: 35px;
+}
+.stickyicon-list a{
+  width: 50px;
+  height:58px;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  float: center;
+}
+.fab {
+  font-size: 38px;
+  padding: 5px 20px;
+  display: inline-block;
+text-align: center;
+}
+.fa-facebook {
+  color: #3b5998}
+.fa-twitter {
+  color:#1da1f2}
+.fa-youtube {
+  color:#ff0000}
+.fa-instagram {
+  color:#c32aa3}
+.fa-pinterest {
+  color:#F20530}
+.fa-linkedin {
+  color:#0777D9}

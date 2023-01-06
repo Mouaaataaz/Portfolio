@@ -1,0 +1,61 @@
+body{
+  font-family: "Rubik";
+}
+h1{
+  color:#b24f32;
+  font-size: 30px;
+  padding:20px;
+}
+h2{
+  color:#b24f32;
+  font-size: 30px;
+  padding:20px;
+}
+h3{
+  color:#b24f32;
+  font-size: 30px;
+  padding:20px;
+}
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+body{
+  width: 100%;
+}
+.container {
+  width: 90%;
+  margin:0 auto;
+  font-family: "Rubik";
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px 0;
+}
+.logo{
+  width: 200px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+.navbar ul li a{
+  float: right;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar ul li a:hover{
+  color: #b24f32;
+  font-weight: bold;
+}
+.content{
+  margin: 100px 0;
+  text-align: left;
+}
